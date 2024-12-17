@@ -1,0 +1,212 @@
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    /* navbar start */
+    .navbar ul {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        background-color: #07e7d1;
+    }
+
+    .navbar ul.active {
+        display: flex;
+    }
+
+    .navbar ul li {
+        margin-left: 0; 
+        text-align: center; 
+        padding: 15px 0; 
+    }
+
+    .toggle-button {
+        display: flex; 
+    }
+    /* navbar end */
+
+    /* Home section start */
+    .home {
+        display: flex;
+        align-items: center;
+        height: 105vh;
+        padding: 51px 0% 0;
+        color: aliceblue;
+        flex-direction: column-reverse;
+    }
+    
+    .home-content{
+        text-align: center;
+    }
+
+    .home-img .img-box .img-item img {
+        position: absolute;
+        display: block;
+        width: 85%;
+        height: 42%;
+        object-fit: cover;
+        border-radius: 50%;
+        top: 123px;
+    }
+
+    .home-content h1 {
+        font-size: 33px;
+    }
+
+    .home-content h2 {
+        font-size: 25px;
+        margin-top: 4px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+        margin: 19px 35px 25px;
+        max-width: 85%;
+    }
+
+    .home-content .social-media {
+        flex-direction: column;
+    }
+    /* Home section end */
+
+    /* About section start */
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 6% 0;
+        /* padding: 20%; */
+    }
+
+    .about-content h2 {
+        text-align: center;
+        font-size: 30px;
+        color: aliceblue;
+    }
+
+    .about .about-details {
+        display: flex;
+        justify-content: unset;
+        top: 10px;
+        padding-top: 4px;
+        flex-direction: column;
+    }
+
+    .about .about-details .about-details-para {
+        width: 100%;
+        padding: 9px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .about .about-details .about-details-para p {
+        font-size: 14px;
+        margin: 19px 6px 25px;
+        max-width: 100%;
+    }
+
+    .progress-bar1 {
+        width: 100%;
+    }
+    /* About Section end */
+
+    /* Conatct section start */
+    .contact .contact-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .contact .contact-details .contact-info {
+        width: 84%;
+        padding: 0px
+    }
+
+    .contact .contact-details .contact-form {
+        width: 100%;
+        padding: 5px 10px 5px;
+       margin: 0px;
+        text-align: center;
+    }
+
+    .contact .contact-details .contact-info li {
+        list-style: none;
+        margin: 10px 0;
+        font-size: 14px;
+    }
+    /* Contact Section end */
+
+    .project {
+        /* display: flex; */
+        align-items: center;
+        padding: 60px 0% 0;
+        /* color: aliceblue; */
+    }
+
+    .project-details-img1 {
+        display: flex;
+        /* justify-content: center; */
+        /* margin-top: 40px; */
+        flex-direction: column;
+        padding-left: 6%;
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .footer {
+        /* display: flex; */
+        align-items: center;
+        padding: 60px 0% 0;
+        /* color: aliceblue; */
+    }
+
+    .footer .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px
+        ;
+    }
+
+    .footer .footer-content h3 {
+        font-size: 19px;
+        color: aliceblue;
+        /* text-align: center; */
+        /* margin: 32px; */
+        padding: 0px;
+        display: none;
+    }
+
+    .footer .footer-content .footer-portfolio-sections li {
+        list-style: none;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .footer .footer-content .footer-portfolio-social-media li {
+        list-style: none;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .footer .footer-content .footer-portfolio-social-media li i {
+        font-size: 25px;
+        margin-right: 10px;
+        display: inline-flex;
+        padding: 8px;
+        border: 2px solid #07e7d1;
+        border-radius: 50%;
+        font-size: 8px;
+        color: #07e7d1;
+        margin: 0 8px;
+        transition: 0.5s;
+        box-shadow: 0 0 10px #07e7d1;
+    }
+
+}
+
